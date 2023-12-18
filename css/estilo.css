@@ -1,0 +1,226 @@
+
+/*{border: 1px solid #35e77f}*/
+/**Fuentes**/
+*{font-family: 'Inter', sans-serif;}
+@font-face {
+    font-family: "Romanesco";
+    src: url(../font/Romanesco-Regular.ttf);
+}
+header{
+    background-color: #A3A656;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+body {margin: 0;} 
+#menu-SPA ul{
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 69px;
+    margin-top: 25px;
+}
+#menu-SPA ul li{
+    padding-right: 30px;
+}
+
+#menu-SPA ul li a{
+    font-size: 1.0rem;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.Usuario{ display: flex;
+}
+.Usuario div{
+    display: flex;
+    list-style-type: none;
+    margin-right: 5px;
+    margin-top: 3px;
+    align-items: center;
+    height: 60px;
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 14px;
+}
+
+#desplegable{ padding-left: 10px;}
+
+#imagen-SPA {
+    display:flex;
+    height: 578px;
+    background-image: url(../img/main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.texto-SPA{
+    margin-left: 150px;
+    margin-right: 570px;
+    margin-top: 130px;
+
+}
+#Texto{
+    font-size: 32px;
+}
+#SPA{
+    font-family: Romanesco;
+    display: inline;
+    font-weight: 500;
+    font-size: 96px;
+}
+
+#menu-reserva {
+    background: #F2F6F6;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu-reserva div{font-size: 16px;}
+#menu-reserva div input{font-size: 16px; color: #9E9A9A;}
+.menu:hover{ color: #FFFF00;}
+
+#reserva {
+    margin-right: 40px;
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+}
+
+#codigo {
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+}
+.Masajes article h2{
+    color: #fff;
+    background: #A3A656;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    padding: 25px 0px;
+    width: 350px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.Masajes article{
+    display: inline-block;
+    padding: 73px 0px;
+    padding-left: 20px;
+    vertical-align: top;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+#relajante {padding-left: 130px; padding-right: 109px;}
+.Masajes article div input{
+    border-radius: 35px; 
+    padding: 15px 35px;
+    background: #A3A656;
+    color: #FFFF;
+    border: none;
+    text-transform: uppercase;
+    float: right;
+    font-weight: bold;
+}
+input.boton:hover{background-color: #384001;}
+
+.Masajes article div {font-size: 30px; font-weight: bold;}
+.Masajes article div p{font-size: 16px; font-weight: normal; margin: 5px; font-size: 14px;}
+
+#Socios {
+    background-color:#F2F6F6;
+    height: 770px;
+}
+#Socios article{
+    width: 24%;
+    display: inline-block;
+    padding:50px;
+    margin-left: 14px;
+    align-items: center;
+
+    vertical-align: top;
+}
+
+#Socios h1{text-align: center;
+font-size: 32px;
+padding-top: 35px;}
+
+#Socios article h2{
+    margin:  0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+#Socios article ul li{margin-left: 50px; margin-bottom: 5px;}
+
+#Socios article ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+#Socios article div img{ 
+    width: 233px; height:233px; 
+    border-radius: 50%;
+    object-fit:scale-down;
+    border-color:#384001;
+    background-color: #FFFF;
+}
+#Socios article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    background-color:#384001;
+    margin-left: 30px;
+}
+
+#Socios article input{
+    border-radius: 35px; 
+    padding: 20px 80px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background: #A3A656;
+    color: #FFFF;
+    border: none;
+    font-weight: bold;
+}
+#Socios article input:hover{background-color: #384001;}
+footer{
+    background-color: #384001;
+    height: 97px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#politicas ul{
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 70px;
+    margin-top: 40px;
+}
+#politicas ul li a{
+    color: #A3A656;
+    text-decoration: none;
+}
+#politicas ul li{padding-right: 60px;}
+#redes {
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+#redes div{ 
+    color: #A3A656;
+    margin-bottom: 0px;
+
+}
+#redes div img{
+    margin-left: 30px;
+}

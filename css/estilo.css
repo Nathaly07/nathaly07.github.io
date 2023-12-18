@@ -211,6 +211,9 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+
+#politicas ul li a:hover{color: #FFFF00;}
+
 #politicas ul{
     list-style-type: none;
     display: inline-flex;
